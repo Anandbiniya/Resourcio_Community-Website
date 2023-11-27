@@ -165,7 +165,7 @@ const Home = () => {
                   </div>
                 </div> */}
                 <div>
-                  <img style={{width:"80%",justifyContent:"center"}} src={Banner} walt="" />
+                  <img style={{width:"80%",justifyContent:"right"}} src={Banner} walt="" />
                 </div>
               </div>
             </section>
@@ -173,9 +173,9 @@ const Home = () => {
 
             <section className="section category" aria-label="category">
               <div className="container">
-                <p className="section-subtitle">Categories</p>
+         
                 <h2 className="h2 section-title">
-                  Online <span className="span" data-aos="zoom-in">Resources</span> For Remote Learning.
+                  What <span className="span" data-aos="zoom-in" style={{color:"blue"}}>DreamSync</span> Do.
                 </h2>
                 <p className="section-text">
                   Here are the different resouces:
@@ -193,7 +193,7 @@ const Home = () => {
                     <Category
                       image={category2}
                       cardTitle="Development Resources"
-                      cardText="Here you can get all information and valuable resources about development at free-of-cost"
+                      cardText="Connecting care-experienced individuals with vital resources closes gaps and empowers through skill-building support"
                       style="351, 83%, 61%"
                     />
                   </li>
@@ -201,8 +201,8 @@ const Home = () => {
                   <li>
                     <Category
                       image={category3}
-                      cardTitle="Open Source Universe"
-                      cardText="Here you can get all information about how and where to start open source contributions"
+                      cardTitle="Community Unity"
+                      cardText="Creating a Unified Platform for Care-Experienced Individuals to Connect and Access Resources"
                       style="229, 75%, 58%"
                     />
                   </li>
@@ -210,8 +210,8 @@ const Home = () => {
                   <li>
                     <Category
                       image={category4}
-                      cardTitle="About Hackathons"
-                      cardText="Here you can get all relevant information and news about upcoming Hackathons"
+                      cardTitle="Mutual Empowerment"
+                      cardText="Mutual Support, Self-Empowerment. Joining Forces to Lift Each Other and Ourselves Towards Growth and Success"
                       style="42, 94%, 55%"
                     />
                   </li>
@@ -315,31 +315,31 @@ const Home = () => {
                 <ul className="grid-list statistics">
                   <li>
                     <Stat
-                      cardTitle={20}
-                      cardText="Software Languages Covered"
+                      cardTitle={2}
+                      cardText="Working Locations"
                       style="170, 75%, 41%"
                     />
                   </li>
                   <li>
                     <Stat
-                      cardTitle={200}
-                      cardText="Resources Added"
+                      cardTitle={100}
+                      cardText="Helping to create Documents"
                       style="351, 83%, 61%"
                       fontSize="35"
                     />
                   </li>
                   <li>
                     <Stat
-                      cardTitle={10}
-                      cardText="Servers Included"
+                      cardTitle={6}
+                      cardText="Sessions on well being and personal growth"
                       style="260, 100%, 67%"
                       fontSize="35"
                     />
                   </li>
                   <li>
                     <Stat
-                      cardTitle={1000}
-                      cardText="Members Visited"
+                      cardTitle={30}
+                      cardText="Members connected"
                       style="42, 94%, 55%"
                       fontSize="35"
                     />

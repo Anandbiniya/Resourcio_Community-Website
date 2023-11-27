@@ -28,9 +28,9 @@ const App = () => {
           <Route exact path='/'>
             <Home />
           </Route>
-          <Route exact path='/resources'>
+          {/* <Route exact path='/resources'>
             <Resources />
-          </Route>
+          </Route> */}
           <Route exact path='/proglang'>
             {user ? <Proglang /> : <Redirect to='/login' />}
           </Route>

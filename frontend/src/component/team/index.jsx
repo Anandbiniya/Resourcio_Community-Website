@@ -1,12 +1,10 @@
-import sayan from "../../Images/team/Sayan.webp"
-import koustav from "../../Images/team/Koustav.webp"
-import rohit from "../../Images/team/Rohit.webp"
-import snehadrita from "../../Images/team/Snehadrita.webp"
-import purbali from "../../Images/team/Purbali.webp"
-import soumya from "../../Images/team/Soumya.webp"
-import ayishik from "../../Images/team/Ayishik.webp"
-import gunjan from "../../Images/team/Gunjan.webp"
-import snigdha from "../../Images/team/Snigdha.webp"
+
+import vishwajeet from "../../Images/team/Vishwajeet.png"
+
+import chaitanya from "../../Images/team/Chaitanya.jpeg"
+import Shahid from "../../Images/team/Shahid.png"
+import Anand from "../../Images/team/Anand.jpeg"
+import suraj from "../../Images/team/Suraj.jpeg"
 import ContactCard from "../contactCard/ContactCard"
 import blogBg from "../../Images/site_assets/blog-bg.svg"
 import "aos/dist/aos.css"
@@ -17,6 +15,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft'
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight'
+import Ayush from "../../Images/team/Ayush.jpeg"
 
 
 const Team = () => {
@@ -73,76 +72,56 @@ const Team = () => {
           Get in touch with us
         </h2>
         <Slider {...sliderSettings}>
+         
           <div className="dev_card">
             <ContactCard
-              image={soumya}
-              name="Soumyajit Mondal"
-              role="Owner & Developer"
-              linkedIn="https://www.linkedin.com/in/soumyajit-mondal-a0692b234/"
+              image={Anand}
+              name="Anand Biniya"
+              role="Founder"
+              linkedIn="https://www.linkedin.com/in/anandbin/"
             />
           </div>
           <div className="dev_card">
             <ContactCard
-              image={ayishik}
-              name="Ayishik Das"
-              role="Co-Owner & Marketing"
-              linkedIn="https://www.linkedin.com/in/ayishik-das-35a67a1a5/"
+              image={vishwajeet}
+              name="Vishwajeeth"
+              role="CTO "
+              linkedIn="https://www.linkedin.com/in/vishwajeetsrk/"
             />
           </div>
           <div className="dev_card">
             <ContactCard
-              image={sayan}
-              name="Sayan Mukherjee"
-              role="Content Writer"
-              linkedIn="https://www.linkedin.com/in/sayan-mukherjee-975175229/"
+              image={chaitanya}
+              name="Chaitanya Khaleja"
+              role="Social Media Handler & Researcher"
+              linkedIn="https://www.linkedin.com/in/chaitanya-kaleja-975502255/"
             />
           </div>
           <div className="dev_card">
             <ContactCard
-              image={koustav}
-              name="Koustav Chatterjee"
-              role="Social Media Handler"
-              linkedIn="https://www.linkedin.com/in/koustav-chatterjee-9b060b226/"
+              image={Ayush}
+              name="Ayush Bajpai"
+              role="Board Memeber"
+              linkedIn="https://www.linkedin.com/in/ayush-bajpai25/"
             />
           </div>
           <div className="dev_card">
             <ContactCard
-              image={snehadrita}
-              name="Snehadrita Seth"
-              role="Designer"
-              linkedIn="https://www.linkedin.com/in/snehadrita-seth-6240821a9/"
+              image={Shahid}
+              name="Shahid Mallik"
+              role="Incharge of Kashmir"
+              linkedIn="https://www.linkedin.com"
             />
           </div>
+        
+        
+        
           <div className="dev_card">
             <ContactCard
-              image={gunjan}
-              name="Gunjan Saha"
-              role="Designer"
-              linkedIn="https://www.linkedin.com/in/gunjansaha55/"
-            />
-          </div>
-          <div className="dev_card">
-            <ContactCard
-              image={rohit}
-              name="Rohit Chakrabarti"
-              role="Designer & Marketing"
-              linkedIn="https://www.linkedin.com/in/rohit-chakrabarti-04b981230/"
-            />
-          </div>
-          <div className="dev_card">
-            <ContactCard
-              image={purbali}
-              name="Purbali Sadhukhan"
-              role="Social Media Handler"
-              linkedIn="https://www.linkedin.com/in/purbali-sadhukhan-30591a235/"
-            />
-          </div>
-          <div className="dev_card">
-            <ContactCard
-              image={snigdha}
-              name="Snigdha Kundu"
-              role="Designer & Social Media Handler"
-              linkedIn="https://www.linkedin.com/in/snigdha-kundu-2b4862254/"
+              image={suraj}
+              name="Suraj Kumar"
+              role="Accountant "
+              linkedIn="https://www.linkedin.com/in/suraj-kumar-38b7b527a/"
             />
           </div>
           {/* Add the rest of the team members here */}

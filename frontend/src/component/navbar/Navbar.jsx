@@ -1,4 +1,4 @@
-import logo from "../../Images/site_assets/favicon.webp"
+import logo from "../../Images/site_assets/DreamSync.jpeg"
 import "./navbar.css"
 import { Link } from "react-router-dom"
 import { useEffect, useRef, useState } from "react"
@@ -40,7 +40,7 @@ const Navbar = () => {
           <img
             className="community_img"
             src={logo}
-            width={55}
+            width={100}
             height={55}
             alt="logo"
           />
