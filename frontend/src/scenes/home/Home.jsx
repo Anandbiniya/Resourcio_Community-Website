@@ -35,7 +35,7 @@ import { EffectCoverflow, Navigation, Pagination } from 'swiper'
 import AOS from "aos"
 import "aos/dist/aos.css"
 import { ThemeContext } from '../../context/ThemeContext'
-
+import Banner from "../home/Banner.jpg"
 
 const Home = () => {
   const { darkMode } = useContext(ThemeContext)
@@ -130,13 +130,11 @@ const Home = () => {
               <div className="container">
                 <div className="hero-content" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" style={{ filter: darkMode ? "invert(0.99)" : "invert(0)" }}>
                   <h1 className="h1 section-title">
-                    The Best Website for students to <span className="span" data-aos="zoom-in"
-                      data-aos-delay="500">Search</span> for Software Resources.
+                    The  Platform for CareExperienced  to <span className="span" data-aos="zoom-in"
+                      data-aos-delay="200" style={{color:"blue"}}>Connect</span> for other Care Experienced people.
                   </h1>
                   <p className="hero-text">
-                    Hello future engineers!<br />Welcome to <b>Resourcio Community</b>!! A one-stop hub for all your
-                    resources and queries
-                    regarding different software languages.
+                  Welcome to <strong style={{color:"blue",fontSize:"30px"}}>Dream</strong><strong style={{fontSize:"30px",color:"black"}}>Sync</strong>, a hub created for care-experienced individuals! Join us in this one-stop destination where you can connect, meet, greet, and empower others while being empowered yourself.
                   </p>
 
                   <Link to='/resources' className='link btn has-before'>
@@ -146,7 +144,7 @@ const Home = () => {
 
                 </div>
 
-                <div className="hero-banner">
+                {/* <div className="hero-banner">
                   <div className="noticeboard" data-aos="flip-right" data-aos-duration="1000"
                     style={{
                       alignItems: upcomingEvents.length === 0 ? 'center' : '',
@@ -165,6 +163,9 @@ const Home = () => {
                     }
                     {upcomingEvents.length > 0 && <marquee behaviour='scroll' scrollamount='4'>Upcoming events</marquee>}
                   </div>
+                </div> */}
+                <div>
+                  <img style={{width:"80%",justifyContent:"center"}} src={Banner} walt="" />
                 </div>
               </div>
             </section>
@@ -183,9 +184,8 @@ const Home = () => {
                   <li>
                     <Category
                       image={category1}
-                      cardTitle="CP Resources"
-                      cardText="Here you can get all information and valuable resources about competetive programming at free-of-cost"
-                      style="170, 75%, 41%"
+                      cardTitle="Document Assistence"
+                      cardText="We offer invaluable assistance to care-experienced individuals by facilitating the acquisition of essential government documents, ensuring accessibility and comprehensive support throughout the process"                   style="170, 75%, 41%"
                     />
                   </li>
 
@@ -225,25 +225,20 @@ const Home = () => {
                 <div className="about-content">
                   <p className="section-subtitle" style={{ "color": "var(--gray-web)" }}>About Us</p>
                   <h3 className="h2 section-title" data-aos="fade-right" data-aos-duration="400">
-                    A group of enthusiastic <span className="span" data-aos="zoom-in" data-aos-delay="300">Engineers keen to</span> help
-                    their fellow Engineers.
+                    A group of enthusiastic <span className="span" data-aos="zoom-in" data-aos-delay="300" color='blue'>Care Experienced  People </span>  keen to help
+                    their fellow Care Expeirnced people.
                   </h3>
                   <p className="section-text" style={{ "color": "var(--gray-web)" }}>
-                    Through Resourcio we have tried to bring in different resources related to software development and
-                    other
-                    different fields related to software engineering in a single place. We want to provide students a
-                    single platform where
-                    they
-                    can find all new resources and they don't need to browse the web extensively for learning them.
+                  Through <strong style={{"color":"blue"}}>Dream</strong><strong style={{"color":"black"}}>Sync</strong>, we aim to collaborate with care-experienced individuals, focusing on documentation and building a robust community for Care-Experienced Youth. Our goal is to provide opportunities and create a centralized platform for their needs.
                   </p>
                   <ul className="about-list" style={{ "fontSize": "1.5rem" }}>
                     <li className="about-item">
                       <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                      <span className="span" data-aos="zoom-in">Free Resources</span>
+                      <span className="span" data-aos="zoom-in">Document Assistence</span>
                     </li>
                     <li className="about-item">
                       <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                      <span className="span" data-aos="zoom-in" data-aos-delay="200">Maximum topics covered</span>
+                      <span className="span" data-aos="zoom-in" data-aos-delay="200">Connect to Other care Experienced</span>
                     </li>
                     <li className="about-item">
                       <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
